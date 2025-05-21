@@ -40,13 +40,13 @@ nodemon index.js
 
 ```
 
-### create .env file
+# create .env file
 
-## Add your local database configuration
+- Add your local database configuration
 
-## Your Personal Cohere-ai API KEY
+- Your Personal Cohere-ai API KEY
 
-## Your SlacK WebHook URL
+- Your SlacK WebHook URL
 
 ```bash
 cd ..
@@ -56,9 +56,9 @@ npm install axios
 npm start
 ```
 
-### create .env file
+# create .env file
 
-## add Your localhost Backend API
+- add Your localhost Backend API
 
 backend-services/
 ├── index.js # Main server file (starts Express server)
