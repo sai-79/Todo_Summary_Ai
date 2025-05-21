@@ -40,7 +40,7 @@ nodemon index.js
 
 ```
 
-# create .env file
+### create .env file
 
 - Add your local database configuration
 
@@ -56,7 +56,7 @@ npm install axios
 npm start
 ```
 
-# create .env file
+### create .env file
 
 - add Your localhost Backend API
 
