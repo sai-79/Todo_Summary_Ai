@@ -59,3 +59,23 @@ npm start
 ### create .env file
 
 ## add Your localhost Backend API
+
+backend-services/
+├── index.js # Main server file (starts Express server)
+├── db.js # Database connection setup
+├── routes/
+│ └── todoRoutes.js # Route definitions for todos
+├── controllers/
+│ └── todoController.js # Logic for handling todo data and DB queries
+|\_\_\_\_.env
+
+frontend-services/
+├── src/
+│ ├── components/
+│ │ ├── TodoList.js
+│ │ ├── TodoForm.js
+│ │ ├── TodoItem.js
+│ │ └── SummaryButton.js
+│ ├── App.js
+│ └── api.js
+|\_\_\_\_.env
