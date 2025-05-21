@@ -1,0 +1,32 @@
+.app {
+  font-family: sans-serif;
+  width: 400px;
+  margin: auto;
+  padding: 20px;
+  text-align: center;
+}
+
+input {
+  padding: 8px;
+  width: 70%;
+  margin-right: 5px;
+}
+
+button {
+  padding: 8px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.todo-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5px 0;
+  background-color: #f9f9f9;
+  border-radius: 4px;
+  padding: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 6px;
+  border-bottom: 1px solid #ddd;
+}
